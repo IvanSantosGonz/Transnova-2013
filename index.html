@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Sistema Alternativo de Comunicación Inalámbrica en Situaciones de Emergencia </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <link href="css/impress.css" rel="stylesheet" />
+        <link href="css/animate.css" rel="stylesheet" />
+         <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+         <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+
+
+
+    <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+    </head>
+   
+   
+    <body class="impress-not-supported" >
+    	<div class="fallback-message">
+    		<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of 			this presentation.</p>
+    		<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+		</div>
+
+    	<div id="impress">	<!-- Envoltura principal donde va a estar toda la presentacion -->
+        
+        
+        	<div class="step" id="init"   data-x="-3000" data-y="20000" data-scale="9" >
+       			
+                <h1 id="titulo">Sistema Alternativo de Comunicación Inalámbrica en Situaciones de Emergencia</h1>
+                <h2 id = "autor"> José Iván Santos González </h2>
+                <h2 id="directora"> Alexandra Rivero García </h2>
+                <h2 id="directora1"> Pino Caballero Gil </h2>
+                <h2 id="directora2"> Candelaria Hernández Goya </h2>
+                <img id = "wdltit" src="img/WDL.png"  width="450" height="450"  />
+                <img id = "trans" src="img/trans.png"  width="450" height="50"  />
+                <img id = "ull_logo" src="img/ull.png"  width="150" height="150"  />
+                
+    		</div>
+            
+            
+            <div class="step app" id="Indice"   data-x="-7000" data-y="24000" data-z="-2000"  data-rotate-x="110" data-scale="1" >
+                <h1> Problema </h1> 
+                <img id = "cobertura" src="img/cobertura.png"  width="275" height="500"  />       
+                <img id = "antena" src="img/antena.png"  width="200" height="300"  />           
+    		</div>
+        
+        
+        
+        
+         <div class="step app" id="Problema"   data-x="-9000" data-y="24000" data-z="-2000"  data-rotate-x="110" data-scale="1" >
+                <h1> Problema </h1> 
+                <img id = "desastres" src="img/desastres.png"  width="1000" height="250"  />       
+    		</div>
+        
+         
+        	<div class="step slide" id="bored"   data-x="-100" data-y="0" data-scale="5" data-rotate-x="360" >
+				<h1> Introducción </h1>
+                <ul>
+					<li> Telefonía móvil </li>
+                	<li> Nueva tecnología inalámbrica (Wi-Fi Direct) </li>
+                    <li> Conexiones P2P (Peer To Peer) </li>
+                    <li> Seguridad </li>
+				</ul>
+                <img id = "intro_img" src="img/intro.png"  width="300" height="250"  />
+    		</div>
+            
+            
+            <div class="step slide" id="bored2"   data-x="1650" data-z="-1725" data-y="0" data-rotate-x="360" data-scale="5" data-rotate-y="90">
+				<h1> Objetivos </h1>
+                <ul>
+					<li> Estudiar la tecnología Wi-Fi Direct </li>
+                	<li> Solución para situaciones de emergencia </li>
+                    <li> Aplicación basada en Android </li>
+                    <li> Algoritmos seguros </li>
+				</ul>
+                <img id ="android" src="img/android.png"  width="150" height="75"  />
+                <img id ="terremoto" src="img/terremoto.png"  width="500" height="350"  />
+                
+    		</div>
+            
+            <div class="step slide" id="bored3"   data-x="-100" data-z="-3475" data-y="0" data-scale="5" data-rotate-y="180" data-rotate-x="360">
+       			<h1> Wi-Fi Direct </h1>
+				<p> Wi-Fi Direct es una nueva tecnología desarrollada por la Wi-Fi Alliance cuyo cometido es establecer una verdadera conexión P2P entre usuarios haciendo uso de la tecnología Wi-Fi.<p>
+				<h2> P2P en Wi-Fi tradicional </h2>
+				<ul>
+					<li> IBSS (Independent Basic Service Set) </li>
+                	<li> Tunneled Direct Link Setup (TDLS) </li>
+				</ul>
+                <img id ="ibss" src="img/ibss.png"  width="200" height="200"  />
+                <img id ="tdls" src="img/tdls.png"  width="200" height="200"  />
+    		</div>
+            
+            <div class="step slide" id="bored4"   data-x="-1825" data-z="-1725" data-y="0" data-scale="5" data-rotate-y="270" data-rotate-x="360">
+       			<h1>Arquitectura de Wi-Fi Direct </h1>
+				<div id= "Owner">
+					<h2>  Group Owner </h2>
+					<p> Esta propiedad permite establecer múltiples conexiones P2P con diferentes dispositivos </p>
+				</div>
+				<div id= "Client">
+					<h2>  Group Client </h2>
+					<p> Esta propiedad permite realizar una conexión P2P con un dispositivo establecido como Group Owner </p>
+                     <img id ="wd-architecture" src="img/wd-architecture.png"  width="500" height="200"  />
+                   
+				</div>
+				
+                
+    		</div>
+       		<div class="step slide" id="bored5"   data-x="-100" data-z="-1750" data-y="-1750" data-scale="5" data-rotate-x="450" data-rotate-y="360" data-rotate-z="90">
+       			<h1>Comparación con otras tecnologías</h1>
+				<h2> Bluetooth 4.0 <h2>
+                <table>
+				    <tbody><tr><th>Tecnología</th><th>Wi-Fi Direct</th><th>Bluetooth 4.0 </th></tr>
+					<tr><td class="tecno">Ancho de banda</td><td>250 Mbps</td><td>25 Mbps</td></tr>
+					<tr class="even"><td class="tecno">Radio de alcance</td><td>100 metros</td><td>60 metros</td></tr>
+					<tr><td class="tecno">Retrocompatibilidad</td><td>Sí</td><td>No</td></tr>
+					<tr class="even"><td class="tecno">Frecuencia</td><td>2.4 GHz</td><td>2.4 GHz</td></tr>
+					<tr><td class="tecno">Consumo de energía</td><td>25% menor que Wi-Fi
+tradicional</td><td>Nuevo modo de bajo consumo de energía</td></tr>
+					<tr class="even"><td class="tecno">Seguridad</td><td>WPA2</td><td>AES 128 bits con CCM</td></tr>
+				</tbody></table>
+					
+			</div>
+            
+            <div class="step slide" id="bored6"   data-x="-100" data-z="-1750" data-y="1750" data-scale="5" data-rotate-x="450" data-rotate-y="540" data-rotate-z="270">
+             	<h1>Seguridad en Wi-Fi Direct</h1>
+       				<p> La seguridad de Wi-Fi Direct está actualmente basada en WPA2. </p>
+                    <p class = "AES">WPA2 utiliza como algoritmo de cifrado AES y no permite el uso de del algoritmo TKIP debido a importantes agujeros de seguridad encontrados en este algoritmo. </p>
+                    
+                    <p class = "WPS">Wi-Fi Direct hace uso de Wi-Fi Protected Setup, un estándar definido para la creación de redes Wi-Fi seguras,
+incluyendo diversos mecanismos para facilitar la configuración de una red Wi-Fi segura usando WPA2 con la mínima intervención del usuario.</p>
+                	<img id ="wps" src="img/wps2.jpg"  width="200" height="100"  />
+    		</div>
+            
+            
+            
+            
+            
+            <div class="step slide blue" id="bored11"   data-x="-100" data-y="5000" data-z="5000" data-scale="5" data-rotate-x="360" >
+				<h1>Criptografía de curvas elípticas</h1>
+                <p> La criptografía de curvas elípticas se encuentra dentro del grupo de los cifrados asimétricos y basa su fortaleza en las propiedades de las curvas elípticas definidas sobre cuerpos finitos, consiguiendo una longitud de claves menor con respecto a criptosistemas con una fortaleza similar. </br> </br> Este hecho permite la utilización de una
+menor cantidad de memoria y un menor consumo de ancho de banda.</p>
+				 <img id ="eccc" src="img/ecc.png"  width="250" height="200"  />
+    		</div>
+            
+            
+            <div class="step slide blue" id="bored14"   data-x="1650" data-z="3250" data-y="5000" data-rotate-x="360" data-scale="5" data-rotate-y="90">
+				<h1>Criptografía de curvas elípticas</h1>
+					<p>Toda la seguridad de la criptografía de curvas elípticas recae sobre la dificultad de resolución del denominado problema del logaritmo elíptico definido sobre cuerpos finitos de dimensión elevada. </br> </br> El problema del logaritmo elíptico consiste en obtener el valor de x tal que xP = Q siendo P y Q puntos de la curva. <!--</br> </br> Por lo tanto podemos afirmar que trabajando con números enteros lo suficientemente
+grandes el uso de logaritmos elípticos puede ser criptográficamente más seguro que el uso de factorización o el logaritmo discreto. --></p> 
+
+ 				<img id ="mult" src="img/MultiplodePunto.jpg"  width="300" height="250"  />
+    		</div>
+			
+
+            
+            <div class="step slide blue" id="bored16"   data-x="-100" data-z="1525" data-y="5000" data-scale="5" data-rotate-y="180" data-rotate-x="360">
+       			<h1>Elliptic Curve Diffie-Hellman (ECDH)</h1>
+       			<p>El protocolo ECDH es una variación del protocolo de Diffie-Hellman original para poder hacer uso de las propiedades que nos ofrecen las curvas elípticas definidas sobre cuerpos
+finitos.</p>
+
+				 <img id ="ecdh" src="img/ECDH.png"  width="500" height="450"  />
+                
+    		</div>
+            
+			
+            
+            <div class="step slide blue" id="bored17"   data-x="-1825" data-z="3275" data-y="5000" data-scale="5" data-rotate-y="270" data-rotate-x="360">
+       			<h1>Seguridad de ECDH</h1>
+                <h2 id="pasivos">Ataques pasivos</h2> 
+                	<p></br>En este tipo de ataques, el atacante trata de obtener información mediante escuchas, sin intervenir en la comunicación. </br> En el peor de los casos, aunque el atacante escuchara tanto la clave pública de A como la de B y conociera p y g no sería capaz de obtener la clave compartida. </p>
+                <h2 id="activos">Ataques activos</h2> 
+                <p id = "p2">Este tipo de ataques consisten en que un atacante no sólo escucha la conversación,
+sino que además toma parte de manera activa en ella pudiendo obtener, modificar y
+generar información.</p>
+                
+    		</div>
+            
+			
+       		<div class="step slide blue" id="bored18"   data-x="-100" data-z="3250" data-y="3250" data-scale="5" data-rotate-x="450" data-rotate-y="360" data-rotate-z="90">
+       		<h1>Man In The Middle</h1> 
+       			
+                 <img id ="MITM2" src="img/MITM.png"  width="600" height="400"  />
+    		</div>
+                
+                
+    
+            
+            
+            
+            <div class="step slide blue" id="bored21"   data-x="-100" data-z="3250" data-y="6750" data-scale="5" data-rotate-x="450" data-rotate-y="540" data-rotate-z="270">
+            <h1> Cifrado en flujo </h1>
+                <ul>
+					<li> Cifrado simétrico </li>
+                	<li> Cifrado bit a bit </li>
+                    <li> Uso de operación XOR </li>
+                    <li> Secuencia cifrante a partir de clave compartida </li>
+                    <li> Generadores pseudoaleatorios </li>
+                    <li> Comunicaciones en tiempo real </li>
+                    <li> Gran velocidad de cifrado </li>
+                    <img id ="vernam" src="img/vernam.png"  width="500" height="200"  />
+				</ul>
+ 
+    		</div>
+            
+            
+             <div class="step slide blue" id="bored22"   data-x="-350" data-z="3250" data-y="5000" data-scale="1" data-rotate-x="450" data-rotate-y="540" data-rotate-z="270">
+             <h1> SNOW 3G </h1>
+                <ul>
+					<li> 4G/LTE </li>
+                	<li> UMTS Encryption Algorithm 2 (UEA2) </li>
+                    <li> UMTS Integrity Algorithm 2 (UIA2)  </li>
+                    <li> Tamaño de clave de 128 bits </li>
+					<li> 32 bits de secuencia cifrante </li>
+				</ul>
+                <img id = "lte" src="img/lte.png"  width="150" height="100"  />
+                <img id = "ss" src="img/3gpp.png"  width="150" height="100"  />
+              
+                
+             
+             	
+    		</div>
+    
+            
+			
+			<div id="app1" class="step app" data-x="35000" data-z="18250" data-y="15000" data-scale="5" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación Wi-Fi Direct Locator </h1>
+				<img id ="wdl" src="img/WDL.png"  width="500" height="450"  />
+				<div id="wdleft">
+					<p> <b class="rotating"> Emergencias </b> </p>
+					<p> <b class="scaling"> Android </b> </p>
+					<p> <b class="rotating1"> Ahorro de energía </b> </p>
+				</div>
+				<div id="wdlright">
+					<p> <b class="rotating1">Desastres naturales</b> </p>
+					<p> <b class="scaling"> Wi-Fi Direct </b> </p>
+					<p> <b class="rotating"> Algoritmos seguros </b> </p>
+				</div>
+    		</div>
+			
+			
+			<div id="app2" class="step app" data-x="50000" data-z="16800" data-y="14000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación Wi-Fi Direct Locator </h1>
+				<h2 class="h2l"> Modo Manual</h2>
+				<ul class="ulleft">
+					<li> Búsquedas manuales</li>
+					<li> Sistema de mensajería</li>
+					<li> Geolocalización</li>
+				</ul>
+				<h2 class="h2r"> Modo Automático</h2>
+				<ul class="ulright">
+					<li> Búsquedas automáticas </li>
+                    <li> Envío automático de mensajes </li>
+					<li> Geolocalización</li>		
+                </ul>
+                <img id ="wdlmovil" src="img/wdlmovil.png"  width="160" height="300"  />
+
+            </div>
+			
+			
+			
+			<div id="app3" class="step app" data-x="50000" data-z="16800" data-y="16000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación Wi-Fi Direct Locator </h1>
+				<h2 class="h2l"> Funcionamiento de la aplicación </h2>
+				<iframe class="video0" width="400" height="300" src="http://www.youtube.com/embed/OBAftnXhydA" frameborder="0" allowfullscreen></iframe>
+ 
+				<h2 class="h2r"> Decisiones de diseño </h2>
+				<ul id="desic" class="ulright">
+					<li> Android </li>
+					<li> Geoposicionamiento </li>
+					<li> Mensajería </li>
+					<li> Seguridad </li>
+				</ul>
+            </div>
+			
+			<div id="app4" class="step app" data-x="50000" data-z="16800" data-y="18000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación Wi-Fi Direct Locator </h1>
+				<h2 class="h2c"> Publicación en Google Play </h2>
+                <img id ="Google" src="img/WDLplay.png"  width="600" height="400"  />
+            </div>
+			
+			
+			
+			<div id="app5" class="step app" data-x="50000" data-z="16800" data-y="20000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación Wi-Fi Direct Locator </h1>
+				<h2 class="h2c"> Estadísticas en Google Play </h2>
+                <img id ="stats" src="img/estadisticas.png"  width="700" height="400"  />
+            </div>
+         
+       
+             <div id="fin" class="step" data-x="-8700" data-y="-450" data-rotate="470" data-scale="1">
+        		<p class="animated hinge" id="gracias" ><b class="positioning">Gracias por su atención</b></p>
+                <p id="preguntas" ><b class="positioning">Preguntas</b></p>
+   			 </div>
+             
+             
+             <div  class="step" data-x="-9000" data-y="-100" data-z="-300" data-rotate="470" data-scale="1">
+        		<p><b class="rotating">José Iván Santos González</b><br/></p>
+                <p id="algoritmos">Sistema Alternativo de Comunicación Inalámbrica en Situaciones de Emergencia</p>
+   			 </div>
+
+          
+                
+          <div id="app6" class="step app" data-x="50000" data-z="18800" data-y="14000" data-scale="1" data-rotate-x="540" data-rotate-z="270" data-rotate-y="270">
+				<h1> Aplicación Wi-Fi Direct Locator </h1>
+				<h2 class="h2c"> Ejemplo de uso </h2>
+                <iframe class="video1" width="600" height="400" src="http://www.youtube.com/embed/ni7tzfUwatI" frameborder="0" allowfullscreen></iframe>
+            </div>
+                
+                
+                
+                
+    </div>
+            
+                
+	<script type="text/javascript" src="js/impress.js"></script>
+    <script>
+impress().init();
+    </script>
+    </body>
+</html>
+
